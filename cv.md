@@ -1,5 +1,5 @@
 # RS School CV
-**************
+--------------
 
 
 # Stanislav Verman

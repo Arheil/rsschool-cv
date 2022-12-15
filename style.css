@@ -55,10 +55,9 @@ body {
 }
 
 .tel::before {
-  content: url('./img/telephone-phone-svgrepo-com.svg');
+  content: url('./img/phone-call-svgrepo-com.svg');
   position: relative;
   top: 5px;
-  left: -10px;
 }
 
 .email::before {

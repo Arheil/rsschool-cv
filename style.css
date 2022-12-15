@@ -151,6 +151,13 @@ body {
   box-shadow: 5px 5px 5px #000;
 }
 
+.rsschool > a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
 .rs {
   color: #000;
   text-decoration: none;

@@ -1,0 +1,165 @@
+:root {
+  --shadow: 5px 5px 5px #666;
+}
+
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  
+  box-sizing: border-box;
+  width: 60vw;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+
+  font-family: 'Montserrat',serif;
+  
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.main {
+  padding: 0 50px;
+}
+
+.subtext {
+  box-shadow: var(--shadow);
+}
+
+.about, .education, .portfolio {
+  margin-bottom: 50px;
+}
+
+.contacts, .skills {
+  margin-bottom: 50px;
+} 
+
+.contacts > ul > li {
+  list-style: none;
+}
+
+.tel {
+  padding-bottom: 10px;
+  margin-left: -14px;
+}
+
+.tel::before {
+  content: url('./img/phone-call-svgrepo-com.svg');
+  position: relative;
+  top: 5px;
+  left: -3px;
+}
+
+.email::before {
+  content: url('./img/email-svgrepo-com.svg');
+  position: relative;
+  top: 5px;
+  left: -10px;
+}
+
+.aside {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  height: 100vh;
+  background: #172caf;
+  color: gold;
+}
+
+.skills-item {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.logo-img {
+  width: 150px;
+  height: 150px;
+  clip-path: circle(50%);
+  object-fit: cover;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin: 20px auto 80px;
+}
+
+.subtitle {
+  padding-left: 20px;
+}
+
+.contacts-link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.portfolio-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.follow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.telegram:hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gold;
+}
+
+.discord:hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gold;
+}
+
+.github:hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gold;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rsschool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.rsschool > a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.rs {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
